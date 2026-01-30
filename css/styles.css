@@ -1,5 +1,23 @@
+/* Styling for the brand name */
 .navbar-brand {
   font-size: 1.5em;
+  color: black !important;
   font-weight: bold;
-  text-transform: uppercase;
+}
+
+/* Background for the mobile dropdown menu */
+/* This distinguishes the menu from the rest of the content */
+.navbar-nav {
+  background-color: #f8f8f8;
+  margin: 0;
+  border: 1px solid #e7e7e7;
+}
+
+/* Creating the tall, scrollable section */
+.content-section {
+  background-color: #e7e7e7; /* Distinguishable background color */
+  height: 1000px;           /* Tall enough to require scrolling */
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
 }
